@@ -1,0 +1,22 @@
+/* estilo geral do site */
+*{
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color:rgb(110, 102, 55);
+    height: 100vh;
+}
+.cabecalho{ 
+    max-width: 1280px;
+    margin: auto;
+}
+/* estilo do cabecalho */
+header{ padding: 40px 4%;}
+header > .cabecalho {
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
